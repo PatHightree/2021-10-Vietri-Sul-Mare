@@ -20,34 +20,74 @@ var APP_DATA = {
       ],
       "faceSize": 960,
       "initialViewParameters": {
-        "yaw": -3.101152756747016,
-        "pitch": -0.12557808079482768,
+        "yaw": 3.0444327874121626,
+        "pitch": -0.2109035730181983,
         "fov": 1.439976990459326
       },
       "linkHotspots": [
         {
-          "yaw": -2.9458817585964407,
-          "pitch": 0.06193918188255232,
+          "yaw": -2.945007578698533,
+          "pitch": 0.05689913198447627,
           "rotation": 0,
-          "target": "4-keuken"
+          "target": "5-keuken"
         },
         {
-          "yaw": -3.022294367588332,
-          "pitch": -0.6667373374307317,
+          "yaw": 2.5373485888972684,
+          "pitch": 0.04684946755237718,
           "rotation": 0,
-          "target": "10-jaccuzi"
+          "target": "2-hal"
         },
         {
-          "yaw": 2.5572039108566758,
-          "pitch": 0.032289750582542354,
+          "yaw": -3.0459452267650438,
+          "pitch": -0.6735143394453651,
           "rotation": 0,
-          "target": "1-hal"
+          "target": "1-jaccuzi"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-hal",
+      "id": "1-jaccuzi",
+      "name": "Jaccuzi",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 960,
+      "initialViewParameters": {
+        "yaw": -2.6682992073254503,
+        "pitch": 0.24525147609623943,
+        "fov": 1.439976990459326
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.3221721501661463,
+          "pitch": 0.2979372711281254,
+          "rotation": 0,
+          "target": "10-balkon"
+        },
+        {
+          "yaw": 2.8728135354135063,
+          "pitch": 0.3027529193444902,
+          "rotation": 0,
+          "target": "0-terras"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-hal",
       "name": "Hal",
       "levels": [
         {
@@ -66,28 +106,34 @@ var APP_DATA = {
       ],
       "faceSize": 960,
       "initialViewParameters": {
-        "yaw": 1.5113147541361762,
-        "pitch": 0.05137705570081863,
+        "yaw": 1.4554244021226346,
+        "pitch": -0.0028350701504642473,
         "fov": 1.439976990459326
       },
       "linkHotspots": [
         {
-          "yaw": -1.6012852399783402,
-          "pitch": 0.11424531830043705,
+          "yaw": 1.4884791458840239,
+          "pitch": -0.00755468614612731,
           "rotation": 0,
-          "target": "0-terras"
+          "target": "3-eet-tafel"
         },
         {
-          "yaw": 1.239377387358541,
-          "pitch": 0.034324076266029735,
+          "yaw": 1.8142186811650127,
+          "pitch": -0.23851772140013594,
           "rotation": 0,
-          "target": "2-eet-tafel"
+          "target": "6-trap"
+        },
+        {
+          "yaw": -1.567127802562787,
+          "pitch": 0.059028086495885645,
+          "rotation": 0,
+          "target": "0-terras"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-eet-tafel",
+      "id": "3-eet-tafel",
       "name": "Eet tafel",
       "levels": [
         {
@@ -106,34 +152,40 @@ var APP_DATA = {
       ],
       "faceSize": 960,
       "initialViewParameters": {
-        "yaw": 2.5957228469543274,
-        "pitch": 0.08449355224016664,
+        "yaw": 2.331721672354168,
+        "pitch": 0.10584264287249923,
         "fov": 1.439976990459326
       },
       "linkHotspots": [
         {
-          "yaw": 1.9867181111218049,
-          "pitch": 0.05512521525724878,
+          "yaw": -2.8656598448773725,
+          "pitch": 0.03700127032679745,
           "rotation": 0,
-          "target": "1-hal"
+          "target": "4-woonkamer"
         },
         {
-          "yaw": -2.8736131823850393,
-          "pitch": 0.0689560717384996,
-          "rotation": 6.283185307179586,
-          "target": "3-woonkamer"
+          "yaw": 0.3899319829290757,
+          "pitch": 0.06017458781732543,
+          "rotation": 0,
+          "target": "5-keuken"
         },
         {
-          "yaw": 0.40033135486070925,
-          "pitch": 0.08119956520193483,
+          "yaw": 0.17709577875898752,
+          "pitch": -0.6687261619612901,
           "rotation": 0,
-          "target": "4-keuken"
+          "target": "6-trap"
+        },
+        {
+          "yaw": 1.982294250687179,
+          "pitch": 0.05429540166784541,
+          "rotation": 0,
+          "target": "2-hal"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-woonkamer",
+      "id": "4-woonkamer",
       "name": "Woonkamer",
       "levels": [
         {
@@ -158,22 +210,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.949325167067448,
-          "pitch": 0.08722446264726003,
+          "yaw": 2.9499480629960253,
+          "pitch": 0.044066839593249085,
           "rotation": 0,
-          "target": "2-eet-tafel"
+          "target": "3-eet-tafel"
         },
         {
-          "yaw": 2.967767174502198,
-          "pitch": -0.22639677384104573,
+          "yaw": 2.94549525304091,
+          "pitch": -0.22313669531752112,
           "rotation": 0,
-          "target": "5-trap"
+          "target": "6-trap"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-keuken",
+      "id": "5-keuken",
       "name": "Keuken",
       "levels": [
         {
@@ -192,28 +244,28 @@ var APP_DATA = {
       ],
       "faceSize": 960,
       "initialViewParameters": {
-        "yaw": -2.240416914776823,
-        "pitch": 0.07616505832701037,
+        "yaw": -2.185614046592537,
+        "pitch": 0.07802715208625699,
         "fov": 1.439976990459326
       },
       "linkHotspots": [
         {
-          "yaw": -2.376981913527098,
-          "pitch": 0.07857891903845271,
+          "yaw": 1.0453954029661805,
+          "pitch": 0.11853479673924028,
           "rotation": 0,
-          "target": "0-terras"
+          "target": "3-eet-tafel"
         },
         {
-          "yaw": 0.997996267119321,
-          "pitch": 0.01614863931813737,
+          "yaw": -2.4113208821921415,
+          "pitch": 0.07519902276548152,
           "rotation": 0,
-          "target": "2-eet-tafel"
+          "target": "0-terras"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "5-trap",
+      "id": "6-trap",
       "name": "Trap",
       "levels": [
         {
@@ -232,46 +284,46 @@ var APP_DATA = {
       ],
       "faceSize": 960,
       "initialViewParameters": {
-        "yaw": 0.7333744038987984,
-        "pitch": 0.5236626123121297,
+        "yaw": 1.0919414465659116,
+        "pitch": 0.5299735781762323,
         "fov": 1.439976990459326
       },
       "linkHotspots": [
         {
-          "yaw": 0.6144067591094782,
-          "pitch": 0.3835079992330108,
+          "yaw": 3.0145501778138817,
+          "pitch": 0.07786119387066748,
           "rotation": 0,
-          "target": "1-hal"
+          "target": "8-gang"
         },
         {
-          "yaw": 1.7107838855250552,
-          "pitch": 0.757671275013692,
+          "yaw": 0.6505727399202108,
+          "pitch": 0.5013210761382858,
           "rotation": 0,
-          "target": "2-eet-tafel"
+          "target": "2-hal"
         },
         {
-          "yaw": 1.6553564930109363,
-          "pitch": 0.403217339665062,
+          "yaw": 1.6055386210697806,
+          "pitch": 0.9666634528308276,
           "rotation": 0,
-          "target": "3-woonkamer"
+          "target": "3-eet-tafel"
         },
         {
-          "yaw": -1.1437322753625985,
-          "pitch": 0.3107357604492922,
+          "yaw": 1.6958754201532829,
+          "pitch": 0.4572247133695111,
           "rotation": 0,
-          "target": "6-slaapkamer-kids"
+          "target": "4-woonkamer"
         },
         {
-          "yaw": -3.0575391392753097,
-          "pitch": 0.18035828416370947,
+          "yaw": -1.2225219830264535,
+          "pitch": 0.16622424488715914,
           "rotation": 0,
-          "target": "7-gang"
+          "target": "7-slaapkamer-kids"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-slaapkamer-kids",
+      "id": "7-slaapkamer-kids",
       "name": "Slaapkamer kids",
       "levels": [
         {
@@ -296,16 +348,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -3.0325981607365886,
-          "pitch": 0.18826306879874366,
+          "yaw": -3.044354577602858,
+          "pitch": 0.18342742480747454,
           "rotation": 0,
-          "target": "5-trap"
+          "target": "6-trap"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "7-gang",
+      "id": "8-gang",
       "name": "Gang",
       "levels": [
         {
@@ -324,29 +376,29 @@ var APP_DATA = {
       ],
       "faceSize": 960,
       "initialViewParameters": {
-        "yaw": -2.4992428106809186,
-        "pitch": 0.28218083110733083,
+        "yaw": -2.459614222252805,
+        "pitch": 0.35128891666452944,
         "fov": 1.439976990459326
       },
       "linkHotspots": [
         {
-          "yaw": -2.061474174409245,
-          "pitch": 0.11330230624917448,
+          "yaw": -2.053376436805463,
+          "pitch": 0.1258216446615723,
           "rotation": 0,
-          "target": "8-kamer-fm"
+          "target": "9-slaapkamer-fm"
         },
         {
-          "yaw": 3.1358749524568994,
-          "pitch": 0.23231869899085034,
+          "yaw": 3.139898146909319,
+          "pitch": 0.18947600135667741,
           "rotation": 0,
-          "target": "5-trap"
+          "target": "6-trap"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "8-kamer-fm",
-      "name": "Kamer F&M",
+      "id": "9-slaapkamer-fm",
+      "name": "Slaapkamer F&M",
       "levels": [
         {
           "tileSize": 256,
@@ -364,28 +416,28 @@ var APP_DATA = {
       ],
       "faceSize": 960,
       "initialViewParameters": {
-        "yaw": 1.556272489931855,
-        "pitch": 0.009687499733638916,
+        "yaw": 2.1158666831360264,
+        "pitch": 0.09624611316430887,
         "fov": 1.439976990459326
       },
       "linkHotspots": [
         {
-          "yaw": 1.5877645150054356,
-          "pitch": 0.0395762014850245,
+          "yaw": 1.5769455031281563,
+          "pitch": 0.08267180684201847,
           "rotation": 0,
-          "target": "9-balkon"
+          "target": "10-balkon"
         },
         {
-          "yaw": -2.1469583876591987,
-          "pitch": 0.10303603499725256,
+          "yaw": -2.111127783041603,
+          "pitch": 0.08626221113868127,
           "rotation": 0,
-          "target": "7-gang"
+          "target": "8-gang"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "9-balkon",
+      "id": "10-balkon",
       "name": "Balkon",
       "levels": [
         {
@@ -404,48 +456,26 @@ var APP_DATA = {
       ],
       "faceSize": 960,
       "initialViewParameters": {
-        "yaw": 1.166844871645619,
-        "pitch": 0.044474675162280874,
+        "yaw": 0.8608895389388316,
+        "pitch": 0.11114826104197739,
         "fov": 1.439976990459326
       },
       "linkHotspots": [
         {
-          "yaw": -2.002366463395104,
-          "pitch": 0.09064093873671553,
+          "yaw": -1.9713770463695681,
+          "pitch": 0.12976662821992768,
           "rotation": 0,
-          "target": "8-kamer-fm"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "10-jaccuzi",
-      "name": "Jaccuzi",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "target": "9-slaapkamer-fm"
         },
         {
-          "tileSize": 512,
-          "size": 512
+          "yaw": -0.4466902708929279,
+          "pitch": -0.1765695290185505,
+          "rotation": 0,
+          "target": "1-jaccuzi"
         },
         {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 960,
-      "initialViewParameters": {
-        "yaw": -2.743641483276882,
-        "pitch": 0.14094879920261683,
-        "fov": 1.439976990459326
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.6859481672131693,
-          "pitch": 0.34853042998771144,
+          "yaw": 0.5836266320631047,
+          "pitch": 0.7426850524228747,
           "rotation": 0,
           "target": "0-terras"
         }
@@ -453,7 +483,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "2021-10 Vietri Sul Mare, Villa Fuenti",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
